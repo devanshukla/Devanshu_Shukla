@@ -3,11 +3,19 @@
   <head>
     <title>index</title>
   </head>
-  <body>
-    <h1>Email Validation</h1>
-    <form action="http://localhost:5000/verify" method="POST">
-      Email address: <input type="email" name="email" />
-      <input type="submit" value="Request OTP" />
+  <body style="background-color: rgb(73, 73, 162)">
+    <h1 style="text-align: center">LOGIN FORM</h1>
+    <form
+      action="http://127.0.0.1:5500/verify.html"
+      method="POST"
+      style="text-align: center"
+    >
+      <b>Email address:</b> <input type="email" name="email" /> <br /><br />
+      <input
+        type="submit"
+        style="text-align: center; border-radius: 5px; border-color: aqua"
+        value="Request OTP"
+      />
     </form>
   </body>
 </html>
